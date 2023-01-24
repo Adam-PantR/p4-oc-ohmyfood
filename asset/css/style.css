@@ -201,7 +201,7 @@ nav {
 
 .fonctionnement div {
   width: 90%;
-  margin: 20px 0 0 10px;
+  margin: 20px auto 0 auto;
   padding: 10px 0 10px 0;
   justify-content: center;
   align-items: center;
@@ -211,6 +211,7 @@ nav {
 }
 .fonctionnement div i {
   position: relative;
+  color: #7E7E7E;
   left: 0;
   width: auto;
   margin-right: 5px;
@@ -228,14 +229,14 @@ nav {
 }
 .fonctionnement div .icon-number {
   position: absolute;
-  left: 1%;
+  left: 3.5%;
   margin-top: 0;
   text-align: center;
   color: white;
   background-color: #9356DC;
   width: 22px;
   height: 22px;
-  padding: 5px;
+  padding: 7px 6px 5px 6px;
   border-radius: 25px;
 }
 
@@ -256,6 +257,19 @@ nav {
   right: auto;
   border-radius: 20px;
   box-shadow: 0 0 10px 0 #D2D2D2;
+}
+.restaurants .groupe-menu .etiquette {
+  background-color: #99E2D0;
+  font-family: "Roboto";
+  font-size: 14px;
+  width: 100px;
+  color: #008766;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  padding-top: 7.5px;
 }
 .restaurants img {
   width: 100%;
@@ -313,6 +327,12 @@ footer h3 {
 }
 footer a, footer p {
   margin-bottom: 15px;
+}
+footer .fa-utensils {
+  margin-right: 10px;
+}
+footer .fa-handshake-angle {
+  margin-right: 5px;
 }
 footer .contact {
   text-decoration: none;
@@ -444,6 +464,7 @@ footer .footer--icon-Desktop {
 .main--container .repas .btn {
   position: absolute;
   right: 15px;
+  color: #99E2D0;
   margin-top: 0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -544,7 +565,7 @@ footer .footer--icon-Desktop {
     position: relative;
   }
   .fonctionnement .directionRow .icon-number {
-    left: -30px;
+    left: -20px;
     margin-top: 0;
     text-align: center;
     color: white;
@@ -577,6 +598,19 @@ footer .footer--icon-Desktop {
     right: auto;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 #D2D2D2;
+  }
+  .restaurants .groupe-menu .etiquette {
+    background-color: #99E2D0;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 100px;
+    color: #008766;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    padding-top: 7.5px;
   }
   .restaurants img {
     width: 100%;
@@ -783,6 +817,7 @@ footer .footer--icon-Desktop {
   .main--container .repas .btn {
     right: 0;
     margin-top: 0;
+    color: #99E2D0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #99E2D0;

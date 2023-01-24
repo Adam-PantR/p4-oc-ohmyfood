@@ -210,7 +210,7 @@ nav {
 
     div {
         width: 90%;
-        margin: 20px 0 0 10px;
+        margin: 20px auto 0 auto;
         padding: 10px 0 10px 0;
         justify-content: center;
         align-items: center;
@@ -220,6 +220,7 @@ nav {
 
         i {
             position: relative;
+            color: #7E7E7E;
             left: 0;
             width: auto;
             margin-right: 5px;
@@ -240,14 +241,14 @@ nav {
 
     div .icon-number {
         position: absolute;
-        left: 1%;
+        left: 3.5%;
         margin-top: 0;
         text-align: center;
         color:white;
         background-color: $color-primary;
         width:22px;
         height: 22px;
-        padding:5px;
+        padding:7px 6px 5px 6px;
         border-radius: 25px;
 
     }
@@ -270,6 +271,19 @@ nav {
                 right: auto;
                 border-radius: 20px;
                 box-shadow: 0 0 10px 0 $background-clar-grey;
+            }
+            .etiquette {
+                background-color: $color-tertiary;
+                font-family: 'Roboto';
+                font-size: 14px;
+                width: 100px;
+                color: #008766;
+                text-align: center;
+                border-radius: 5px;
+                position: absolute;
+                right: 20px;
+                top:0;
+                padding-top: 7.5px ;
             }
         }
 
@@ -345,6 +359,14 @@ nav {
             }
             a, p {
                 margin-bottom: 15px;
+            }
+
+            .fa-utensils {
+                margin-right: 10px;
+            }
+
+            .fa-handshake-angle {
+                margin-right:5px;
             }
 
             .contact {
@@ -529,7 +551,8 @@ nav {
 
                 .btn { 
                     position: absolute;
-                    right: 15px;   
+                    right: 15px;  
+                    color: $color-tertiary; 
                     margin-top:0;         
                     border-top-right-radius: 15px;
                     border-bottom-right-radius: 15px;
@@ -558,7 +581,7 @@ nav {
                     .btn {
                         opacity: 1;
                         -webkit-animation: scale-up-hor-right 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-                            animation: scale-up-hor-right 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
+                            animation: scale-up-hor-right 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                     }
 
                     .price {
@@ -676,7 +699,7 @@ nav {
 
                 .icon-number {
                     
-                    left:-30px;
+                    left:-20px;
                     margin-top: 0;
                     text-align: center;
                     color:white;
@@ -715,6 +738,20 @@ nav {
                 right: auto;
                 border-radius: 20px;
                 box-shadow: 0 0 10px 0 $background-clar-grey;
+            }
+
+            .etiquette {
+                background-color: $color-tertiary;
+                font-family: 'Roboto';
+                font-size: 14px;
+                width: 100px;
+                color: #008766;
+                text-align: center;
+                border-radius: 5px;
+                position: absolute;
+                right: 20px;
+                top:0;
+                padding-top: 7.5px ;
             }
         }
     
@@ -998,7 +1035,8 @@ nav {
 
                 .btn { 
                     right: 0;
-                    margin-top:0;         
+                    margin-top:0; 
+                    color: $color-tertiary;        
                     border-top-right-radius: 15px;
                     border-bottom-right-radius: 15px;
                     background-color: $color-tertiary;
